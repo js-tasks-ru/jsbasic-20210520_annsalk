@@ -1,14 +1,4 @@
 function getMinMax(str) {
-  /*let arr = str.split(' ');
-  let arr2 = arr.split(',');
-
-  let sortArr = arr2.sort( (a, b) => a - b );
-
-  let min = sortArr[0];
-  let max = sortArr[sortArr.length - 1];
-
-  return min;
-  return max;*/
 
   let elements = str.split(/[\s,]+/)
 		.filter(el => !isNaN(el))
